@@ -3,7 +3,6 @@
 # Définition des variables
 CONFIG_DIR="$HOME/.config/hypr"
 BACKUP_DIR="$HOME/hyprland_backup"
-GIT_REPO="https://github.com/lykasiia/LykaHyprlandDotfiles.git"
 ZSH_CUSTOM_CONFIG="$HOME/.zshrc"
 
 # Mise à jour du système et installation des paquets nécessaires
