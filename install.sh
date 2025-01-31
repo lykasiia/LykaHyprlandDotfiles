@@ -14,8 +14,8 @@ sudo pacman -S --noconfirm hyprland xdg-desktop-portal-hyprland waybar dunst rof
 
 
 # Suppression de la configuration Hyprland de base
-echo "Suppression de la configuration Hyprland de base..."
-rm -rf "$HOME/.config/hypr" "$HOME/.config/waybar"
+# echo "Suppression de la configuration Hyprland de base..."
+# rm -rf "$HOME/.config/hypr" "$HOME/.config/waybar"
 
 # Vérification que le clonage a réussi
 if [ -d "$CONFIG_DIR" ]; then
