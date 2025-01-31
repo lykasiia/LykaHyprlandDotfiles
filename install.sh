@@ -8,9 +8,7 @@ ZSH_CUSTOM_CONFIG="$HOME/.zshrc"
 # Mise à jour du système et installation des paquets nécessaires
 echo "Mise à jour du système et installation des dépendances..."
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm hyprland xdg-desktop-portal-hyprland waybar dunst rofi kitty nautilus firefox wl-clipboard swaylock swayidle zsh git fastfetch \
-    binutils glibc cairo libdisplay-info libdrm mesa libglvnd glib2 harfbuzz libinput libliftoff pango pixman libseat gcc-libs systemd-libs udis86 util-linux wayland \
-    xcb-util xcb-util-renderutil xcb-util-wm xcb-util-xrm xorg-xwayland polkit
+sudo pacman -S --noconfirm hyprland xdg-desktop-portal-hyprland waybar dunst rofi kitty nautilus firefox wl-clipboard swaylock swayidle zsh git fastfetch
 
 
 # Suppression de la configuration Hyprland de base
